@@ -1,7 +1,7 @@
 version: '2'
 services:
     interpreter-app:
-        image: tfragner/interpreter
+        image: meroff/interpreter
         environment:
             - SPRING_PROFILES_ACTIVE=prod,swagger
             - SPRING_DATASOURCE_URL=jdbc:mysql://interpreter-mysql:3306/interpreter?useUnicode=true&characterEncoding=utf8&useSSL=false
